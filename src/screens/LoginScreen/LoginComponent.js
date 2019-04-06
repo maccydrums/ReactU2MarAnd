@@ -5,9 +5,10 @@ import CardComponent from '../../components/CardComponent';
 import { withRouter } from 'react-router';
 import PropTypes from 'prop-types';
 
-
+//renderar LoginComponent med input och en knapp som skickar vidare användaren till DashboardComponent
 class LoginComponent extends Component {
 
+  //skickar användaren vidare till DashboardComponent
   navigate = () => {
     this.props.history.push('/dashboard');
   }

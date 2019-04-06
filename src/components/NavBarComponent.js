@@ -17,7 +17,7 @@ function User() {
   );
 }
 
-//all logik för React Router
+//Renderar en Navbar med tre länkar och hanterar all logik för React Router
 class NavBarComponent extends Component {
 
   //skickar användaren vidare till /login

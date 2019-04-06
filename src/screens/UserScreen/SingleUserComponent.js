@@ -3,7 +3,7 @@ import '../../App.css';
 import CardComponent from '../../components/CardComponent';
 import PropTypes from 'prop-types';
 
-
+//renderar SingleUserComponent som visar vilken user man har klickat på i Dashboard
 class SingleUserComponent extends Component {
   render() {
 

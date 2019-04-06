@@ -31,9 +31,13 @@
   justify-content: flex-end;
 }
 
+.input-group {
+  width: 100%;
+  max-width: 368px;
+}
+
 .buttons .btn {
-  margin-left: 15px;
-  margin-right: -10px;
+  margin-left: 10px;
 }
 
 a {
